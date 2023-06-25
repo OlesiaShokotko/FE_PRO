@@ -42,10 +42,13 @@ console.log(removeUser(2))
 console.log(users)
 
 function changeUser(id, name, salary){
+    if(users.some(el => el.id === id)) {
     let foundElement = users.find(el => el.id === id)
     foundElement.name = name
     foundElement.salary = salary
     return foundElement;
+    }
+    throw new Error("This id doesn`t exist.");
 }
 console.log(changeUser(1, "Stefan", "2000"))
 console.log(users)
