@@ -1,0 +1,57 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px 50px 0;
+}
+
+.content_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: auto;
+}
+
+.right_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: auto;
+}
+
+.footer_title {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.address_link {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  line-height: 52px;
+  font-style: normal;
+}
+
+.work_time_title {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.work_time_title > span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.contact {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 91px;
+  color: black;
+}
+

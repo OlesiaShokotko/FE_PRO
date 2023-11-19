@@ -1,0 +1,37 @@
+.section{
+    background-color: #EDF7FA;
+    margin: 80px 0 0;
+    padding: 30px 0;
+}
+
+.container{
+    width: 850px;
+    margin: 0 auto;
+}
+
+.title_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.title_wrapper > h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.title_wrapper > p{
+    color: #00A8CC;
+}
+
+.posts_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_card{
+    padding: 25px;
+    width: 418px;
+    height: 295px;
+    background-color: white;
+}

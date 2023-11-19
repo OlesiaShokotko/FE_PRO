@@ -1,0 +1,13 @@
+.post_item_title{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.descr_wrapper{
+    display: flex;
+    margin: 15px 0;
+}
+
+.descr_wrapper > p{
+    font-size: 18px;
+}
